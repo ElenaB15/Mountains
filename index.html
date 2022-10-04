@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mountains</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <header>
+        <h2 class="logo-name">MNTN</h2>
+        <nav class="main-nav">
+          <ul class="main-list">
+            <li><a href="#">Equipment</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </nav>
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="19"
+            height="19"
+            fill="currentColor"
+            class="bi bi-person-circle account-logo"
+            viewBox="0 0 16 16"
+          >
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path
+              fill-rule="evenodd"
+              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+            />
+          </svg>
+          <span class="account">Account</span>
+        </div>
+      </header>
+      <div class="title">
+        <div class="guide">
+          <div class="line"></div>
+          <h4 class="guide-title">A Hiking Guide</h4>
+        </div>
+        <h1 class="main-title">Be Prepared For The Mountains And Beyond!</h1>
+
+        <p class="scroll">scroll down &darr;</p>
+      </div>
+    </section>
+    <section class="level">
+      <div class="container">
+        <div class="get">
+          <div class="desc">
+            <div class="num">01</div>
+            <div class="guide get-guide">
+              <div class="line"></div>
+              <h4 class="guide-title">Get started</h4>
+            </div>
+            <h2 class="get-title">What level of hiker are you?</h2>
+            <p
+              class="get-desc"
+              id="par"
+              onmouseover="change(event)"
+              onmouseout="back(event)"
+            >
+              Determining what level of hiker you are can be an important tool
+              when planning future hikes. This hiking level guide will help you
+              plan hikes according to different hike ratings set by various
+              websites like All Trails and Modern Hiker. What type of hiker are
+              you - novice, moderate, advanced moderate, expert, or expert
+              backpacker?
+            </p>
+            <p class="read">read more &rarr;</p>
+          </div>
+          <img src="img/01.png" alt="img-1" class="img-1" />
+        </div>
+      </div>
+    </section>
+    <section class="level">
+      <div class="container">
+        <div class="get">
+          <img src="img/02.png" alt="img-2" class="img-2" />
+          <div class="desc">
+            <div class="num">02</div>
+            <div class="guide get-guide">
+              <div class="line"></div>
+              <h4 class="guide-title">Hiking essentials</h4>
+            </div>
+            <h2 class="get-title">Picking the right Hiking Gear!</h2>
+            <p class="get-desc">
+              The nice thing about beginning hiking is that you don't really
+              need any special gear, you can probably get away with things you
+              already have. Let's start with clothing. A typical mistake hiking
+              beginners make is wearing jeans and regular clothes, which will
+              get heavy and chafe wif they get sweaty or wet'
+            </p>
+            <p class="read">read more &rarr;</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="level">
+      <div class="container">
+        <div class="get">
+          <div class="desc">
+            <div class="num">03</div>
+            <div class="guide get-guide">
+              <div class="line"></div>
+              <h4 class="guide-title">Where you go is the key</h4>
+            </div>
+            <h2 class="get-title">Understand Your Map & Timing</h2>
+            <p class="get-desc">
+              To start, print out the hiking guide and map. If it's raining,
+              throw them in a Zip-Lock bag. Read over the guide, study the map,
+              and have a good idea of what to expect. I like to know what my
+              next landmark is as I hike. For example, I'll read the guide and
+              know that say, in a mile, I make a right turn at the junction..
+            </p>
+            <p class="read">read more &rarr;</p>
+          </div>
+          <img src="img/03.png" alt="img-3" class="img-3" />
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container flex-footer">
+        <div class="left">
+          <h2 class="logo-name">MNTN</h2>
+          <p class="discover">
+            Get out there & discover your next slope, mountain & destination!
+          </p>
+          <p class="copy">Copyright 2020 MNTN, Inc. Terms & Privacy</p>
+        </div>
+        <div class="right">
+          <div>
+            <h4 class="foo-header">More on The Blog</h4>
+            <ul class="foo-list">
+              <li><a href="#">About MNTN</a></li>
+              <li><a href="#">Contributors & Writers</a></li>
+              <li><a href="#">Write For Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="foo-header">More on The MNTN</h4>
+            <ul class="foo-list">
+              <li><a href="#">The Team</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function change() {
+        document.getElementById("par").style.color = "#fbd784";
+      }
+      function back() {
+        document.getElementById("par").style.color = "#fff";
+      }
+    </script>
+  </body>
+</html>

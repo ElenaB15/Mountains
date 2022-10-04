@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+.hero {
+  background-image: linear-gradient(
+      rgba(11, 29, 38, 0.6),
+      rgba(11, 29, 38, 0.6)
+    ),
+    url("../img/mountains-clouds-forest-fog.webp");
+  background-size: cover;
+  height: 100vh;
+}
+header {
+  padding: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-name {
+  font-size: 45px;
+  font-weight: 500;
+  font-family: serif;
+}
+.main-list {
+  display: flex;
+
+  list-style: none;
+}
+.main-list li a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 50px;
+}
+.main-list li a:hover,
+.account:hover,
+.account-logo:hover {
+  color: #fbd784;
+}
+.main-list li a,
+.account {
+  font-size: 20px;
+  font-weight: 600;
+}
+.account-logo {
+  /* font-weight: bold; */
+  display: inline-block;
+  margin-right: 8px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.guide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.line {
+  width: 60px;
+  height: 2px;
+  background-color: #fbd784;
+  margin-right: 20px;
+}
+.guide-title {
+  color: #fbd784;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.main-title {
+  font-size: 55px;
+  font-family: serif;
+  text-transform: uppercase;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+.scroll {
+  font-weight: 600;
+  font-size: 16px;
+}
+.scroll:hover {
+  color: #fbd784;
+}
+.level,
+footer {
+  padding: 100px;
+  background-color: #0b1e28f3;
+}
+
+.get {
+  display: flex;
+  gap: 20%;
+}
+.desc {
+  width: 41%;
+  align-self: center;
+  position: relative;
+}
+.get-guide {
+  justify-content: flex-start;
+}
+.num {
+  font-size: 190px;
+  opacity: 0.1;
+  font-weight: bold;
+  position: absolute;
+  top: -100px;
+  left: -80px;
+}
+.get-title {
+  font-family: serif;
+  font-size: 65px;
+  margin-bottom: 30px;
+}
+.get-desc {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.read {
+  color: #fbd784;
+  font-weight: 700;
+}
+.read:hover {
+  transform: translate(2px);
+}
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.flex-footer {
+  display: flex;
+  gap: 20%;
+}
+.discover {
+  max-width: 65%;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 90px;
+  line-height: 1.6;
+}
+.copy {
+  color: #91b2c3b2;
+  opacity: 0.5;
+}
+.right {
+  display: flex;
+  gap: 150px;
+}
+.foo-header {
+  color: #fbd784;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.foo-list {
+  list-style: none;
+}
+.foo-list li {
+  margin-bottom: 20px;
+}
+.foo-list li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.foo-list li a:hover {
+  color: #fbd784;
+}
